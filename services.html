@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pathfinder IT Solutions|Services</title>
+  
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  
+  <!-- AOS Animation -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <link rel="shortcut icon" href="img/logo.png">
+  <link rel="apple-touch-icon" href="img/logo.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/logo.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/logo.png">
+
+</head>
+<body>
+
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white fw-bold" href="#">
+                <img src="img/logo.png" alt="Pathfinder Logo" height="35" class="me-2"> Pathfinder IT Solutions
+            </a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="about.html">About</a></li>
+                    <li><a class="nav-link" href="services.html">Services</a></li>
+                    <li><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Hero - IMPROVED -->
+<section class="hero" style="display: flex; justify-content: flex-start; text-align: left;">
+  <div class="hero-content" data-aos="fade-up" style="align-items: flex-start; display: flex; flex-direction: column;">
+    <h1>Dive In To Our Services</h1>
+    <p>
+      We empower businesses to thrive in the digital world by providing innovative technology solutions
+      customized to meet your unique goals and challenges.
+    </p>
+    <div class="hero-buttons" style="display: flex; gap: 10px; justify-content: flex-start;">
+      <!-- <a href="#services" class="btn btn-primary">Our Services</a> -->
+      <a href="#contact" class="btn btn-outline-light">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+
+
+<br>
+<br>
+
+<!-- Services - IMPROVED -->
+<!-- Services - IMPROVED -->
+<section id="services" class="section">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Our Services</h2>
+        <p class="text-center mb-5" data-aos="fade-up">Comprehensive IT solutions to drive your business forward</p>
+        <div class="row mt-5">
+            <!-- Service Boxes -->
+            <div class="col-md-4 mb-4" data-aos="zoom-in">
+                <div class="service-box">
+                    <i class="fa-solid fa-screwdriver-wrench fa-3x mb-3"></i>
+                    <h5>Troubleshooting & Support</h5>
+                    <p>Quick and reliable IT support to resolve technical issues and keep your systems running smoothly.
+                    </p>
+                    <button class="service-link btn btn-link" data-bs-toggle="offcanvas"
+                        data-bs-target="#modalSupport">Learn More</button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                <div class="service-box">
+                    <i class="fa-brands fa-windows fa-3x mb-3"></i>
+                    <h5>Windows Installation</h5>
+                    <p>Professional OS setup, drivers, and optimization for peak performance and security.</p>
+                    <button class="service-link btn btn-link" data-bs-toggle="offcanvas"
+                        data-bs-target="#modalWindows">Learn More</button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                <div class="service-box">
+                    <i class="fa-solid fa-globe fa-3x mb-3"></i>
+                    <h5>Website Development</h5>
+                    <p>Responsive, modern websites with full-stack solutions tailored to your business needs.</p>
+                    <button class="service-link btn btn-link" data-bs-toggle="offcanvas"
+                        data-bs-target="#modalWeb">Learn More</button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="600">
+                <div class="service-box">
+                    <i class="fa-solid fa-chart-line fa-3x mb-3"></i>
+                    <h5>Data Analytics & Dashboards</h5>
+                    <p>Transforming raw data into insights using Power BI, Streamlit & AI for informed decision-making.
+                    </p>
+                    <button class="service-link btn btn-link" data-bs-toggle="offcanvas"
+                        data-bs-target="#modalAnalytics">Learn More</button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="800">
+                <div class="service-box">
+<i class="fa-solid fa-server fa-3x mb-3"></i>
+                  <h5>Web Hosting</h5>
+                  <p>Reliable, fast, and secure hosting solutions designed to keep your website online, optimized, and protected at all
+                    times.</p>
+
+                    <button class="service-link btn btn-link" data-bs-toggle="offcanvas"
+                        data-bs-target="#modalCyber">Learn More</button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="1000">
+                <div class="service-box">
+                    <i class="fa-solid fa-paintbrush fa-3x mb-3"></i>
+                    <h5>Poster & Graphic Design</h5>
+                    <p>Creative branding materials that make your business stand out and attract customers.</p>
+                    <button class="service-link btn btn-link" data-bs-toggle="offcanvas"
+                        data-bs-target="#modalDesign">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Offcanvas Modals for each service -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="modalSupport">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Troubleshooting & Support</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+        <img src="img/Troubleshooting & Support.jpeg" alt="Troubleshooting & Support" class="img-fluid mb-3 rounded">
+        <p>Our expert team provides fast and reliable IT support, troubleshooting hardware and software issues, and
+            ensuring your systems run smoothly. We offer remote and onsite assistance tailored to your business needs.
+        </p>
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="modalWindows">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Windows Installation</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body text-center">
+        <img src="img/Windows Installation.png" alt="Windows Installation" class="img-fluid mb-3 rounded">
+        <p>We provide professional Windows installation, driver setup, and system optimization for enhanced performance
+            and security. Let us handle your OS upgrades and maintenance.</p>
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="modalWeb">
+    <div class="offcanvas-header >
+        <h5 class="offcanvas-title">Website Development</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body text-center ">
+        <img src="img/Website Development.jpeg " alt="Website Development" class="img-fluid mb-3 rounded " >
+        <p class="text-start">We build responsive, modern websites using the latest technologies. From design to deployment, our full-stack
+            solutions are customized for your business goals and branding.</p>
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="modalAnalytics">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Data Analytics & Dashboards</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+        <img src="img/Data Analytics & Dashboards.jpeg" alt="Data Analytics & Dashboards" class="img-fluid mb-3 rounded">
+        <p>Unlock insights from your data with interactive dashboards and analytics powered by Power BI, Streamlit, and
+            AI. Make informed decisions with clear, actionable visualizations.</p>
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="modalCyber">
+    <div class="offcanvas-header">
+    <h5 class="offcanvas-title">Hosting Solutions</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+
+  <div class="offcanvas-body text-center">
+    <img src="img/hosting.jpeg" alt="Hosting Solutions" class="img-fluid mb-3 rounded mx-auto d-block">
+    <p class="text-start">
+      Ensure your website runs fast, secure, and reliably with our professional hosting solutions.
+      We provide scalable hosting, uptime monitoring, regular backups, and technical support
+      tailored to your business needs.
+    </p>
+  </div>
+</div>
+
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="modalDesign">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Poster & Graphic Design</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+<div class="offcanvas-body text-center">
+    <img src="img/Poster & Graphic Design.jpeg" alt="Poster & Graphic Design"
+        class="img-fluid mb-3 rounded mx-auto d-block">
+    <p class="text-start">Stand out with creative posters and graphic design. Our team crafts branding materials that
+        attract customers
+        and elevate your business image.</p>
+</div>
+</div>
+
+
+
+
+<br>
+  <!-- Team - IMPROVED -->
+  <section id="team" class="section bg-light-custom">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Our Team</h2>
+      <p class="text-center mb-5" data-aos="fade-up">Meet the experts behind Pathfinder IT Solutions</p>
+      <div class="row mt-5">
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="team-member">
+            <div class="team-img-container">
+              <img src="img/ntandazo.jpg" alt="Ntandazo" class="team-img">
+              <div class="social-links">
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fas fa-phone"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+  
+            </div>
+            <h4>Ntandazo Mbambo</h4>
+            <div class="team-role">Software Developer & Business Analyst</div>
+            <p class="team-bio">Specializing in software development with expertise various languages. Passionate about
+              creating efficient, scalable solutions.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+          <div class="team-member">
+            <div class="team-img-container">
+              <img src="img/Bayanda.jpg" alt="Bayanda Msane" class="team-img">
+              <div class="social-links">
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fas fa-phone"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+  
+            </div>
+            <h4>Bayanda Msane</h4>
+            <div class="team-role">Frontend Developer</div>
+            <p class="team-bio">Creative designer with a keen eye for detail. Specializes in user-centered
+              design, creating intuitive interfaces that enhance user experience.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+          <div class="team-member">
+            <div class="team-img-container">
+              <img src="img/siyabonga.jpg" alt="Siyabonga Sithole" class="team-img">
+              <div class="social-links">
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fas fa-phone"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+  
+            </div>
+            <h4>Siyabonga Sithole</h4>
+            <div class="team-role">Software Developer</div>
+            <p class="team-bio">
+              Skilled software developer specializing in building scalable, secure, and high-performance applications.
+              Passionate about writing clean code, solving complex problems, and delivering reliable digital solutions.
+            </p>
+  
+          </div>
+        </div>
+      </div>
+  </section>
+
+<!-- CTA Section - NEW -->
+<section class="cta-section">
+  <div class="container">
+    <h2 data-aos="fade-up">Ready to Transform Your Business?</h2>
+    <p data-aos="fade-up" data-aos-delay="200">Let's discuss how our IT solutions can help your business grow and succeed in the digital age.</p>
+    <a href="#contact" class="btn btn-primary btn-lg" data-aos="zoom-in">Get Started Today</a>
+  </div>
+</section>
+
+
+<!-- Footer - IMPROVED -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <img src="img/logo.png" style="height: 70px;" alt="Pathfinder IT Solutions" class="mb-3">
+        <h5>Pathfinder IT Solutions</h5>
+        <p>Providing innovative IT solutions to help businesses thrive in the digital age.</p>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+        <h5 style="margin-bottom:15px; color:#fff;">Quick Links</h5>
+        <ul style="list-style:none; padding:0; margin:0;">
+          <li style="margin-bottom:8px;">
+            <a href="index.html" style="text-decoration:none; color:#ffd;"
+              onmouseover="this.style.color='var(--secondary)';" onmouseout="this.style.color='#ffd';">
+              Home
+            </a>
+          </li>
+          <li style="margin-bottom:8px;">
+            <a href="about.html" style="text-decoration:none; color:#ffd;"
+              onmouseover="this.style.color='var(--secondary)';" onmouseout="this.style.color='#ffd';">
+              About Us
+            </a>
+          </li>
+          <li style="margin-bottom:8px;">
+            <a href="ser" style="text-decoration:none; color:#ffd;" onmouseover="this.style.color='var(--secondary)';"
+              onmouseout="this.style.color='#ffd';">
+              Services
+            </a>
+          </li>
+
+          <li style="margin-bottom:8px;">
+            <a href="#contact" style="text-decoration:none; color:#ffd;"
+              onmouseover="this.style.color='var(--secondary)';" onmouseout="this.style.color='#ffd';">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+        <h5 style="margin-bottom:15px; color:#fff;">Services</h5>
+        <ul style="list-style:none; padding:0; margin:0;">
+          <li style="margin-bottom:8px;">
+            <a href="#services" style="text-decoration:none; color:#ffd;"
+              onmouseover="this.style.color='var(--secondary)';" onmouseout="this.style.color='#ffd';">
+              Web Design
+            </a>
+          </li>
+          <li style="margin-bottom:8px;">
+            <a href="#services" style="text-decoration:none; color:#ffd;"
+              onmouseover="this.style.color='var(--secondary)';" onmouseout="this.style.color='#ffd';">
+              Web Development
+            </a>
+          </li>
+          <li style="margin-bottom:8px;">
+            <a href="#services" style="text-decoration:none; color:#ffd;"
+              onmouseover="this.style.color='var(--secondary)';" onmouseout="this.style.color='#ffd';">
+              Hosting
+            </a>
+          </li>
+          <li style="margin-bottom:8px;">
+            <a href="#services" style="text-decoration:none; color:#ffd;"
+              onmouseover="this.style.color='var(--secondary)';" onmouseout="this.style.color='#ffd';">
+              Consultation
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="col-lg-4 col-md-4">
+        <h5>Newsletter</h5>
+        <p>Subscribe to our newsletter for updates and offers.</p>
+        <div class="footer-newsletter">
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="Your Email">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center copyright">
+      <p>&copy; 2025 Pathfinder IT Solutions. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top Button -->
+<a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="js/scripts.js"></script>
+
+
+</body>
+</html>
